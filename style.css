@@ -11,3 +11,15 @@
   --neutral-color-desaturated: hsl(224, 23%, 55%);
   --neutral-color-dark: hsl(223, 47%, 23%);
 }
+
+body {
+  background: url(images/pattern-background-desktop.svg) no-repeat top center;
+  background-color: var(--primary-color-pale);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
