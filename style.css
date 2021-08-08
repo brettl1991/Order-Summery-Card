@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +17,7 @@
 body {
   background: url(images/pattern-background-desktop.svg) no-repeat top center;
   background-color: var(--primary-color-pale);
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .container {
@@ -22,4 +25,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
+}
+
+.card {
+  background-color: #fff;
+  height: 500px;
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  background: url(images/illustration-hero.svg) no-repeat center / cover;
+  height: 170px;
+}
+
+.card-center h2 {
+ text-align: center;
+  margin-top: 20px;
+  
 }
