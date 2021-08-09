@@ -31,31 +31,48 @@ body {
 .card {
   position: relative;
   background-color: #fff;
-  height: 500px;
+  height: 600px;
   width: 450px;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .card-top {
   position: absolute;
 }
 
-img {
-  border-radius: 15px 15px 0 0;
+.card-top img {
   height: 180px;
   width: 450px;
 }
 
-.card-center {
+.card-body {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
+h2 {
+  font-weight: 900;
+  color: var(--neutral-color-dark);
+}
 
 .card-center p {
   font-size: 16px;
   color: var(--neutral-color-desaturated);
   padding: 20px;
+  line-height: 1.5em;
+}
+
+.card-plan {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--neutral-color-pale);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.icon-img {
 
 }
