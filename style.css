@@ -88,3 +88,20 @@ h2 {
   color: var(--neutral-color-desaturated);
 }
 
+.card-btn-plan {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--primry-color-bright);
+  font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: underline;
+}
+
+.card-btn-plan:hover {
+  cursor: pointer;
+  color: var(--neutral-color-desaturated);
+}
+
+
+
