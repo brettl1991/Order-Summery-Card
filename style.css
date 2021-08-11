@@ -17,7 +17,7 @@
 body {
   background: url(images/pattern-background-desktop.svg) no-repeat top center;
   background-color: var(--primary-color-pale);
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .container {
@@ -94,7 +94,7 @@ h2 {
   background: none;
   color: var(--primry-color-bright);
   font-weight: 900;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   text-decoration: underline;
 }
 
@@ -140,3 +140,18 @@ h2 {
   color: var(--neutral-color-dark);
 }
 
+/*Media query Mobile*/
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .card-top img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  
+}
