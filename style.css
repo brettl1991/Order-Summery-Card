@@ -153,5 +153,15 @@ h2 {
     height: auto;
   }
 
-  
+  .card-body {
+    margin-top: 200px;
+  }
+
+  .card-plan-box {
+    margin-right: 0;
+  }
+
+  .btn-dark {
+    margin-top: 20px;
+  }
 }
